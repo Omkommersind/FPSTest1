@@ -193,7 +193,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 7.36e-43, y: -4.7715916e+24, z: 4.5904e-41, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 1.05236955e-20, z: 7.36e-43, w: 1.5354889e-20}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -228,6 +228,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat9
       objectReference: {fileID: 0}
+    - target: {fileID: -8877696552106264234, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
+    - target: {fileID: -8791635886462695080, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
     - target: {fileID: -8791462977255172696, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -243,16 +253,31 @@ PrefabInstance:
       propertyPath: m_Name
       value: FrontightsBottom
       objectReference: {fileID: 0}
+    - target: {fileID: -8297894743941450127, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: -7774106025989775695, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: WondowsGlass
       objectReference: {fileID: 0}
+    - target: {fileID: -7687642677190279879, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: de952b63a46c1a747b927027a5ce0134, type: 2}
     - target: {fileID: -7675806691464210408, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: Seat14
       objectReference: {fileID: 0}
+    - target: {fileID: -7673886404300160364, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: -7462036371361415008, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -263,6 +288,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: WheelsDiscs
       objectReference: {fileID: 0}
+    - target: {fileID: -7388493087233597285, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
+    - target: {fileID: -6889605191291200087, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
+    - target: {fileID: -6860305590714054535, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: -6787611782507106137, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -273,6 +313,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SeatMetal8
       objectReference: {fileID: 0}
+    - target: {fileID: -6166381988907012391, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -6166381988907012391, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -6152150741729097994, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
+    - target: {fileID: -6054058774237248251, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: -5926298273719021832, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -283,6 +343,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SeatMetal12
       objectReference: {fileID: 0}
+    - target: {fileID: -5481780088064920357, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: -5429867386963399807, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -293,6 +358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HornsAndLadder
       objectReference: {fileID: 0}
+    - target: {fileID: -4936756623511030184, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: -4609285134700015667, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -303,6 +373,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackLadderRounds
       objectReference: {fileID: 0}
+    - target: {fileID: -4422021379620015346, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: -4216859302048453862, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -311,7 +386,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
@@ -378,6 +453,41 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat11
       objectReference: {fileID: 0}
+    - target: {fileID: -4068090919080426854, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
+    - target: {fileID: -4066638066466324316, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: de952b63a46c1a747b927027a5ce0134, type: 2}
+    - target: {fileID: -3929869365373478463, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
+    - target: {fileID: -3741177403773978992, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
+    - target: {fileID: -3699267273847750047, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
+    - target: {fileID: -3485140827919649987, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b2c745d04a9f6549b151b6581b93d9b, type: 2}
+    - target: {fileID: -3397044934178152597, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: -3130094881678433821, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -388,21 +498,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor
       objectReference: {fileID: 0}
+    - target: {fileID: -2994021993198774253, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
+    - target: {fileID: -2784311128158294143, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
+    - target: {fileID: -2711360088735058915, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
     - target: {fileID: -2529853520158466204, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: SeatMetal9
       objectReference: {fileID: 0}
+    - target: {fileID: -2397996973257786244, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: de952b63a46c1a747b927027a5ce0134, type: 2}
     - target: {fileID: -2252636084295728357, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: Seat12
       objectReference: {fileID: 0}
+    - target: {fileID: -2224145837015486805, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: -1772936458789377913, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: WheelsDecals
       objectReference: {fileID: 0}
+    - target: {fileID: -1770558457899374191, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 654a57e200cd40f459c331be5c65d772, type: 2}
     - target: {fileID: -1458341462208083384, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -413,6 +553,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BodyBottomDoors
       objectReference: {fileID: 0}
+    - target: {fileID: -832986271949461016, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: -696069350270297713, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -428,6 +573,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SideLights
       objectReference: {fileID: 0}
+    - target: {fileID: -239555428307642338, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: 189094648159794051, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -438,6 +588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WheelsHolders
       objectReference: {fileID: 0}
+    - target: {fileID: 226128916404560649, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: 290114139337320885, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -478,31 +633,91 @@ PrefabInstance:
       propertyPath: m_Name
       value: WindowsRubber
       objectReference: {fileID: 0}
+    - target: {fileID: 1711277887553122256, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: 1733432751603664565, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: Seat3
       objectReference: {fileID: 0}
+    - target: {fileID: 1958529666632713821, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
+    - target: {fileID: 2340265493194058027, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 654a57e200cd40f459c331be5c65d772, type: 2}
+    - target: {fileID: 2417870052188601592, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: de952b63a46c1a747b927027a5ce0134, type: 2}
     - target: {fileID: 2502203975881118265, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: BackLights
       objectReference: {fileID: 0}
+    - target: {fileID: 2613593695213929458, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
     - target: {fileID: 3028042972331259927, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: SeatMetal3
       objectReference: {fileID: 0}
+    - target: {fileID: 3042023663407478641, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
+    - target: {fileID: 3574223156633730527, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: 3667633384733631754, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: BackTopLights
       objectReference: {fileID: 0}
+    - target: {fileID: 3726339050020320484, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: 3970142303492473630, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: MiddleAndBackDoors
       objectReference: {fileID: 0}
+    - target: {fileID: 4001744114852090283, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
+    - target: {fileID: 4063835366044962077, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
+    - target: {fileID: 4196040851096478221, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b2c745d04a9f6549b151b6581b93d9b, type: 2}
+    - target: {fileID: 4288508267217597388, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: 4304232019670195337, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -523,16 +738,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seat2
       objectReference: {fileID: 0}
+    - target: {fileID: 5118912390960346548, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
+    - target: {fileID: 5208976528939402559, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
     - target: {fileID: 5246493363189180684, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: Seat13
       objectReference: {fileID: 0}
+    - target: {fileID: 5251265338430276845, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: 5270754585578004464, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: SeatMetal14
       objectReference: {fileID: 0}
+    - target: {fileID: 5834953974792395099, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
+    - target: {fileID: 6058263341307319539, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
+    - target: {fileID: 6276146907538703642, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: de952b63a46c1a747b927027a5ce0134, type: 2}
+    - target: {fileID: 6384153160484565830, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: 6408027021358640671, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -548,6 +798,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SeatMetal13
       objectReference: {fileID: 0}
+    - target: {fileID: 6811951166802061924, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 12b6109af83abd648b2c012b6dd66c0f, type: 2}
+    - target: {fileID: 6826571161313461350, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: 7041444396333007809, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -563,6 +823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SeatMetal11
       objectReference: {fileID: 0}
+    - target: {fileID: 7463629311751745285, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a9f0bec833bb0a04bb7a1c15e9c86fc4, type: 2}
     - target: {fileID: 7469484624682501897, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -573,11 +838,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: SeatMetal1
       objectReference: {fileID: 0}
+    - target: {fileID: 7607969613485072407, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 654a57e200cd40f459c331be5c65d772, type: 2}
+    - target: {fileID: 7822927708374525834, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
     - target: {fileID: 8051415255134806348, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
       value: BodyMain
       objectReference: {fileID: 0}
+    - target: {fileID: 8304545770963488453, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
     - target: {fileID: 8419509613375243657, guid: 7b5a14e68597ebd49baf81a27f926100,
         type: 3}
       propertyPath: m_Name
@@ -618,6 +898,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: NumberPlate
       objectReference: {fileID: 0}
+    - target: {fileID: 9186905318390105861, guid: 7b5a14e68597ebd49baf81a27f926100,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a08c5dd159e57534abe24697d7976556, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b5a14e68597ebd49baf81a27f926100, type: 3}
 --- !u!1 &542758822
