@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float MoveSpeed = 5f;
     public float MouseSensitivity = 1f;
-    public Camera Camera;
+    public Transform CameraTransform;
 
     private Rigidbody _rb;
 
@@ -32,23 +32,9 @@ public class PlayerController : MonoBehaviour
 
         // View
         _mouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y")) * MouseSensitivity;
-        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x,
-            transform.rotation.eulerAngles.y + _mouseInput.x,
+        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y + _mouseInput.x,
             transform.rotation.eulerAngles.z);
 
-        Camera.transform.localRotation =
-            Quaternion.Euler(Camera.transform.localRotation.eulerAngles + new Vector3(-_mouseInput.y, 0, 0));
-
-        // Shoot
-        if (Input.GetMouseButton(0))
-        {
-            Ray ray = Camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
-            {
-                // Debug.Log("I am looking at " + hit.transform.name);
-            }
-        }
+        CameraTransform.localRotation = Quaternion.Euler(CameraTransform.localRotation.eulerAngles + new Vector3(-_mouseInput.y, 0, 0));
     }
 }
